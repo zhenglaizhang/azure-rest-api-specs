@@ -28,9 +28,18 @@ These are the global settings for the Automanage API.
 title: AutomanageClient
 description: Automanage Client
 openapi-type: arm
-tag: package-2020-06-30-preview
+tag: package-preview-2020-06
 ```
 
+
+### Tag: package-preview-2020-06
+
+These settings apply only when `--tag=package-preview-2020-06` is specified on the command line.
+
+```yaml $(tag) == 'package-preview-2020-06'
+input-file:
+  - Microsoft.Automanage/preview/2020-06-30-preview.1/automanage.json
+```
 ### Tag: package-2020-06-30-preview
 
 These settings apply only when `--tag=package-2020-06-30-preview` is specified on the command line.
@@ -85,4 +94,3 @@ csharp:
   output-folder: $(csharp-sdks-folder)/automanage/Microsoft.Azure.Management.Automanage/src/Generated
   clear-output-folder: true
 ```
-
