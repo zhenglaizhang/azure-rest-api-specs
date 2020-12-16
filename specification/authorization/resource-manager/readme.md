@@ -26,7 +26,7 @@ These are the global settings for the Authorization API.
 
 ``` yaml
 openapi-type: arm
-tag: package-2020-04-preview
+tag: package-preview-2020-12
 ```
 
 ## Suppression
@@ -71,6 +71,15 @@ directive:
     reason: for this case the result of the proposed change would resemble a boolean anyways
 ```
 
+
+### Tag: package-preview-2020-12
+
+These settings apply only when `--tag=package-preview-2020-12` is specified on the command line.
+
+```yaml $(tag) == 'package-preview-2020-12'
+input-file:
+  - Microsoft.Authorization/preview/2020-12-16/authorization-RoleAssignmentsCalls.json
+```
 ### Tag: package-2020-04-01-preview-only
 
 These settings apply only when `--tag=package-2020-04-01-preview-only` is specified on the command line.
@@ -281,4 +290,3 @@ See configuration in [readme.java.md](./readme.java.md)
 ## AzureResourceSchema
 
 See configuration in [readme.azureresourceschema.md](./readme.azureresourceschema.md)
-
