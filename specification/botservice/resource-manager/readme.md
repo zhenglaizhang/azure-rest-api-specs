@@ -26,19 +26,26 @@ These are the global settings for the BotService API.
 
 ``` yaml
 openapi-type: arm
-tag: package-2020-06-02
+tag: package-preview-2021-01
 ```
 
 
+### Tag: package-preview-2021-01
+
+These settings apply only when `--tag=package-preview-2021-01` is specified on the command line.
+
+```yaml $(tag) == 'package-preview-2021-01'
+input-file:
+  - Microsoft.BotService/preview/2021-01-01/botservice.json
+```
 ### Tag: package-2020-06-02
 
 These settings apply only when `--tag=package-2020-06-02` is specified on the command line.
 
-```yaml $(tag) == 'package-2020-06-02'
+``` yaml $(tag) == 'package-2020-06-02'
 input-file:
   - Microsoft.BotService/stable/2020-06-02/botservice.json
 ```
-
 
 ### Tag: package-2018-07-12
 
@@ -104,9 +111,9 @@ swagger-to-sdk:
   - repo: azure-sdk-for-js
 ```
 
-
 ## Suppression
-```
+
+``` 
 directive:
   - suppress: SECRET_PROPERTY
     from:
@@ -115,7 +122,6 @@ directive:
       - $.definitions.FacebookChannelProperties.properties.verifyToken
     reason: We do need to return verifyToken in FacebookChannelProperties.
 ```
-
 
 ## C#
 
@@ -146,4 +152,3 @@ See readme.python.md file.
 ## AzureResourceSchema
 
 See configuration in [readme.azureresourceschema.md](./readme.azureresourceschema.md)
-
