@@ -5,7 +5,7 @@
     "managedInstanceName": "myManagedInstanceName",
     "databaseName": "myDatabase",
     "sensitivityLabelSource": "recommended",
-    "api-version": "2020-08-01-preview"
+    "api-version": "2021-01-01"
   },
   "responses": {
     "200": {
