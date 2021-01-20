@@ -23,7 +23,7 @@
         "type": {
           "readOnly": true,
           "type": "string",
-          "description": "The type of the resource. E.g. \"Microsoft.Compute/virtualMachines\" or \"Microsoft.Storage/storageAccounts\""
+          "description": "The type of the resource. Example - \"Microsoft.Compute/virtualMachines\" or \"Microsoft.Storage/storageAccounts\""
         }
       },
       "x-ms-azure-resource": true
