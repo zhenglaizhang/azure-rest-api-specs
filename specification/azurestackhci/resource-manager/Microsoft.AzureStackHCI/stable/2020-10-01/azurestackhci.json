@@ -3,7 +3,7 @@
   "info": {
     "version": "2020-10-01",
     "title": "AzureStackHCI",
-    "description": "Azure Stack HCI management service"
+    "description": "Azure Stack x HCI management service"
   },
   "host": "management.azure.com",
   "schemes": [
