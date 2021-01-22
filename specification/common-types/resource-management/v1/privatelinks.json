@@ -35,7 +35,7 @@
       "properties": {
         "privateEndpoint": {
           "$ref": "#/definitions/PrivateEndpoint",
-          "description": "The resource of private end point."
+          "description": "The resource of private end point x."
         },
         "privateLinkServiceConnectionState": {
           "$ref": "#/definitions/PrivateLinkServiceConnectionState",
