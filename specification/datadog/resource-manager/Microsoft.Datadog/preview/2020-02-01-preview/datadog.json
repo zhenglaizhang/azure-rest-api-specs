@@ -31,7 +31,7 @@
         "tags": [
           "Agreements"
         ],
-        "summary": "List Datadog marketplace agreements in the subscription.",
+        "summary": "List Datadog marketplace agreements x in the subscription.",
         "operationId": "MarketplaceAgreements_List",
         "produces": [
           "application/json"
