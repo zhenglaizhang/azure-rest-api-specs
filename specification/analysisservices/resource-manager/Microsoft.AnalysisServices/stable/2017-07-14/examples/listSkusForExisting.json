@@ -9,7 +9,8 @@
     "200": {
       "headers": {},
       "body": {
-        "value": [ {
+        "value": [
+          {
             "sku": {
               "name": "B1",
               "tier": "Basic"

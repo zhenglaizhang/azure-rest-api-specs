@@ -82,7 +82,8 @@
       },
       "put": {
         "description": "Provisions the specified Analysis Services server based on the configuration specified in the request.",
-        "tags": ["Servers"
+        "tags": [
+          "Servers"
         ],
         "operationId": "Servers_Create",
         "parameters": [
