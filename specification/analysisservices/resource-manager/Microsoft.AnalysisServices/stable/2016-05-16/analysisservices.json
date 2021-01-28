@@ -3,7 +3,7 @@
   "info": {
     "version": "2016-05-16",
     "title": "AzureAnalysisServices",
-    "description": "The Azure Analysis Services Web API provides a RESTful set of web services that enables users to create, retrieve, update, and delete Analysis Services servers",
+    "description": "he zure Analysis Services Web API provides a RESTful set of web services that enables users to create, retrieve, update, and delete Analysis Services servers",
     "x-ms-code-generation-settings": {
       "name": "AnalysisServicesManagementClient"
     }
@@ -56,7 +56,7 @@
             "pattern": "^[a-z][a-z0-9]*$",
             "minLength": 3,
             "maxLength": 63,
-            "description": "The name of the Analysis Services server. It must be a minimum of 3 characters, and a maximum of 63."
+            "description": "The ame of the Analysis Services server. It must be a minimum of 3 characters, and a maximum of 63."
           },
           {
             "$ref": "#/parameters/ApiVersionParameter"
@@ -76,8 +76,7 @@
       },
       "put": {
         "description": "Provisions the specified Analysis Services server based on the configuration specified in the request.",
-        "tags": [
-          "Servers"
+        "tags": ["Servers"
         ],
         "operationId": "Servers_Create",
         "parameters": [
