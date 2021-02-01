@@ -2064,7 +2064,6 @@ tpgs
 ProviderHub
 checkin
 regionality
-clie
 Resource
 Metastores
 maintenancewindows
