@@ -2,12 +2,16 @@
   "parameters": {
     "api-version": "2020-08-06-preview",
     "subscriptionId": "00000000-0000-0000-0000-000000000000",
-    "resourceGroupName": "myResourceGroup",
+    "resourceGroupName": 
+    "myResourceGroup",
     "azureBareMetalInstanceName": "myAzureBareMetalInstance"
   },
   "responses": {
     "200": {},
-    "202": {},
+
+    "202": {
+
+    },
     "204": {}
   }
 }

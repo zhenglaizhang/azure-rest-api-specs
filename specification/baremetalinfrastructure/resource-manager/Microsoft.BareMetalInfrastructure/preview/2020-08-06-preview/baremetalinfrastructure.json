@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "version": "2020-08-06-preview",
-    "title": "bareMetalInfrastructureClient X",
+    "title": "bareMetalInfrastructureClient X thi ias a typo asf clie",
     "description": "The BareMetalInfrastructure Management client"
   },
   "host": "management.azure.com",
@@ -27,7 +27,7 @@
       "type": "oauth2",
       "authorizationUrl": "https://login.microsoftonline.com/common/oauth2/authorize",
       "flow": "implicit",
-      "description": "Azure Active Directory OAuth2 Flow",
+      "description": "Azure Active Directory OAuth2 Flow fae",
       "scopes": {
         "user_impersonation": "impersonate your user account"
       }
