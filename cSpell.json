@@ -762,6 +762,12 @@
                 "saasresources",
                 "Moderneligibility"
             ]
+        },
+        {
+            "filename": "**/specification/baremetalinfrastructure/resource-manager/Microsoft.BareMetalInfrastructure/preview/2020-08-06-preview/baremetalinfrastructure.json",
+            "words": [
+                "clie"
+            ]
         }
     ]
 }
