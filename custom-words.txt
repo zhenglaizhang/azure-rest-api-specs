@@ -2064,6 +2064,7 @@ tpgs
 ProviderHub
 checkin
 regionality
+zure
 Resource
 Metastores
 maintenancewindows
