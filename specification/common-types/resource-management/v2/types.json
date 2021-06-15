@@ -2,13 +2,13 @@
   "swagger": "2.0",
   "info": {
     "version": "2.0",
-    "title": "Common types"
+    "title": "Common types update common-types"
   },
   "paths": {},
   "definitions": {
     "Resource": {
       "title": "Resource",
-      "description": "Common fields that are returned in the response for all Azure Resource Manager resources",
+      "description": "Common fields that are returned in the response for all Azure Resource Manager resources update common",
       "properties": {
         "id": {
           "readOnly": true,
