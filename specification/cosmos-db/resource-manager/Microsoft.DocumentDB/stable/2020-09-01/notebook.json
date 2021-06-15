@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Cosmos DB",
-    "description": "Azure Cosmos DB Database Service Resource Provider REST API",
+    "description": "Azure Cosmos DB Database Service Resource Provider REST API update only",
     "version": "2020-09-01"
   },
   "host": "management.azure.com",
